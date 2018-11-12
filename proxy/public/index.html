@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+
+    <title>FEC Demo</title>
+
+    <script src="/lib/react.development.js"></script>
+    <script src="/lib/react-dom.development.js"></script>
+    <script src="http://localhost:3000/bundle.js"></script>
+    <script src="http://localhost:3332/bundle.js"></script>
+    <script src="http://localhost:8000/bundle.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost:3000/style.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost:3332/style.css">
+<!--     <link rel="stylesheet" type="text/css" href="http://localhost:8000/style.css"> -->
+  </head>
+  <body>
+
+    <div id ="CourseContent"> </div>
+    <div id ="InstructorDescription"> </div>
+    <div id ="CourseReview"> </div>
+
+    <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
+    <script>
+
+      ReactDOM.render(
+        React.createElement(CourseContent),
+        document.getElementById('CourseContent')
+      );
+      ReactDOM.render(
+        React.createElement(InstructorDescription),
+        document.getElementById('InstructorDescription')
+      );
+      ReactDOM.render(
+        React.createElement(CourseReview),
+        document.getElementById('CourseReview')
+      );
+      //             ReactDOM.render(
+      //   React.createElement(CourseContent),
+      //   document.getElementById('CourseContent')
+      // );
+
+      // ReactDOM.render(
+      //   React.createElement(Related),
+      //   document.getElementById('Related')
+      // );
+      // ReactDOM.render(
+      //   React.createElement(Reviews),
+      //   document.getElementById('Reviews')
+      // );
+    </script>
+
+
+  </body>
+</html>

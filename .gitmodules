@@ -1,0 +1,12 @@
+[submodule "topsection-service-ismail"]
+	path = topsection-service-ismail
+	url = https://github.com/HRR34/topsection-service-ismail.git
+[submodule "instructorDescription-fec-server"]
+	path = instructorDescription-fec-server
+	url = https://github.com/HRR34/instructorDescription-fec-server.git
+[submodule "reviews-service-fec-max"]
+	path = reviews-service-fec-max
+	url = https://github.com/HRR34/reviews-service-fec-max.git
+[submodule "coursecontent-service-mobin0"]
+	path = coursecontent-service-mobin0
+	url = https://github.com/HRR34/coursecontent-service-mobin0.git
